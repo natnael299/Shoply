@@ -2,7 +2,7 @@ import axios from 'axios';
 import React, { useState, useEffect } from 'react'
 import { formatPrice } from '../utils/utils';
 import { useNavigate } from 'react-router';
-function PaymentGrid(cart, fetchCart) {
+function PaymentGrid({ cart, fetchCart }) {
   const [data, setData] = useState(null);
   const navigate = useNavigate();
   useEffect(() => {

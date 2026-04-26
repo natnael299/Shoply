@@ -6,7 +6,7 @@ import "./styles/orders.css"
 import "./styles/header.css"
 import OrderedProducts from './orders/OrderedProducts'
 
-function Orders(cart_length) {
+function Orders({ cart_length }) {
   const [orders, setOrders] = useState([]);
   //fetch the orders from the backend
   useEffect(() => {

@@ -17,7 +17,7 @@ function CheckoutHeader({ cart }) {
 
         <div className="checkout-header-middle-section">
           Checkout (<Link className="return-to-home-link"
-            to="/home">{cartLength} items</Link>)
+            to="/">{cartLength} items</Link>)
         </div>
 
         <div className="checkout-header-right-section">
